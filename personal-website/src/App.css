@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+/* 
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+
+#typing, #experience {
+  font-family: 'Avantgarde', 'TeX Gyre Adventor', 'URW Gothic L', sans-serif;
+  color: #3b3b3c;
+}
+
+.aboutme_content{
+  color: #3b3b3c;
+  font-size: 2vw;
+  display: inline-block;
+  margin-right: 3%;
+  margin-left: 10%;
+  /* margin: center; */
+  /* margin-top: -50%; */
+  text-align: justify;
+  font-weight: bold;
+  line-height: 1.5;
+  /* display: flex; */
+  padding: auto;
+  /* size: 10px; */
+}
+
+.am_div{
+  display: flex;
+  padding: auto;
+  margin-right: 5%;
+}
+
+.pic_am{
+  height: 35%;
+  width: 35%;
+  border-radius: 2%;
+  margin-left: 10%;
+  display: inline-block;
+  /* display: flex; */
+  /* margin-top: 10%; */
+  margin-bottom: 10%;
+}
+
+ul {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.9rem;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+}
+
+li:hover {
+  text-decoration: wavy underline #3b3b3c;
+  /* background-color: white; */
+}
+
+.row {
+  display: flex;
+  width: 50%;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.logos {
+  /* width: 100%; */
+  border-radius: 10%;
+  /* display: block; */
+  max-width: 200px;
+  max-height: 90px;
+  width: auto;
+  height: auto;
+}
